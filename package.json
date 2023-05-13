@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "clean-build": "rmdir /s /q dist && tsc"
+  },
+  "dependencies": {
+    "lol-constants": "^2.0.0"
   }
 }

@@ -1,4 +1,4 @@
-import { Region } from 'shieldbow'
+import { Region } from 'lol-constants'
 
 export class MinuteAnalyzer {
   gameIds: number[]
