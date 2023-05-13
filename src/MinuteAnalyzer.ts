@@ -1,0 +1,25 @@
+import { Region } from 'shieldbow'
+
+export class MinuteAnalyzer {
+  gameIds: number[]
+  region: Region
+  constructor({
+    gameIds,
+    region,
+  }: {
+    gameIds: number[]
+    region: Region
+  }) {
+    this.gameIds = gameIds
+    this.region = region
+  }
+
+  analyze() {
+  }
+
+  async #fetchGames(
+    gameIds: string[],
+    region: Region,
+  ) {
+  }
+}

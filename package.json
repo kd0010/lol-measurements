@@ -1,0 +1,9 @@
+{
+  "name": "lol-measurements",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "clean-build": "rmdir /s /q dist && tsc"
+  }
+}
