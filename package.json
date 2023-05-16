@@ -7,7 +7,7 @@
     "clean-build": "rmdir /s /q dist && tsc"
   },
   "dependencies": {
-    "lol-constants": "^2.0.0",
+    "lol-constants": "^2.3.1",
     "rift-js-utils": "^1.7.0"
   }
 }
